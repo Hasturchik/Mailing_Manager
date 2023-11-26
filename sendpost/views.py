@@ -7,17 +7,17 @@ from .models import Mailing, Message, Client
 from .serializers import MessageSerializer
 import requests
 
-class ClientViewSet(viewsets.ModelViewSet):
-    queryset = Client.objects.all()
-    serializer_class = ClientSerializer
+# class ClientViewSet(viewsets.ModelViewSet):
+#     queryset = Client.objects.all()
+#     serializer_class = ClientSerializer
 
-class MailingViewSet(viewsets.ModelViewSet):
-    queryset = Mailing.objects.all()
-    serializer_class = MailingSerializer
+# class MailingViewSet(viewsets.ModelViewSet):
+#     queryset = Mailing.objects.all()
+#     serializer_class = MailingSerializer
 
-class MessageViewSet(viewsets.ModelViewSet):
-    queryset = Message.objects.all()
-    serializer_class = MessageSerializer
+# class MessageViewSet(viewsets.ModelViewSet):
+#     queryset = Message.objects.all()
+#     serializer_class = MessageSerializer
 
 
 # @api_view(['POST'])
